@@ -20,8 +20,8 @@ public class LogServiceDemo extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         // NOTE:
-        // 注意在工程的Log4J的配置文件中配置上ACE的Ace4jLogAppender，Ace4jLogAppender的配置不要调整。
-        // Ace4jLogAppender输出ACE会收集并显示到ACE的控制台上。
+        // 注意在工程的Log4J的配置文件中配置上ACE的aceAppender，aceAppender的配置不要调整。
+        // aceAppender输出ACE会收集并显示到ACE的控制台上。
         // 详见本工程中的Log4J配置文件 log4j.properties
 
         resp.getWriter().println("Begin ols test!");
